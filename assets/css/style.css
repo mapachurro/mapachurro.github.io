@@ -71,6 +71,10 @@ a {
     background-color: white;
 }
 
+#channels {
+    float: center: 
+}
+
 #About_title {
     color:  #4aaaa5;
 }
@@ -191,4 +195,35 @@ h3 span {
     color: #ffffff;
     background-color: #4aaaa5;
 
+}
+
+
+
+
+
+/*
+
+The following is for the link state exercise only*/
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+    font-size: 10px;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+    font-size: 20px;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    font-style: bold;
 }
