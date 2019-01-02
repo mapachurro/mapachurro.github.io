@@ -1,69 +1,94 @@
-<!doctype html>
-<html>
-<head>
+<!DOCTYPE html>
+<html lang="en">
 
-<title>Contact</title>
-<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+<head>
+    <meta charset="UTF-8">
+    <title>oliver jl renwick </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Bootstrap File -->
+    <link rel="stylesheet" href="./assets/css/contactcss.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
 
 </head>
+
 <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/square 42.jpg" width="30" height="30"></a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html" style="color: #FD9A8F;">oliver jl renwick <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./portfolio.html" style="color: #FD9A8F;">my work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="./contact.html" style="color: #FD9A8F;">my channels</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
 
-<section id="topbar">
-    <section>
-        <h2 id="name">Oliver JL Renwick
-        </h2>
-    </section>
+    <!-- Overall Bootstrap Grid -->
 
-    <section id="linkbar">
-        <a href="./index.html">About |</a>
-        <a href="./portfolio.html"> Portfolio |</a>
-        <a href="./contact.html"> Contact</a>
-    </section>
-
-
-
-
-<hr id="lowbar">
-
-<div id="background_gray">
-            
-        <div id="about_content">
-                <div id="About_title">
-                        <h2>Contact
-                        </h2>
+    <div class="container">
+        <!-- Bio card -->
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="card" id="biocard">
+                        <div class="card-header bg-dark">
+                            <h3 id='name'>my channels</h3>
+                        </div>
+                        <div class="card-body">
+                            <div id="contactchannels">
+                                <a href="http://www.quidproquotranslations.com">
+                                    <img id="qpq" src="./assets/images/qpqhomepage.jpg">
+                                </a>
+                                <br>
+                                <a href="http://www.quidproquotranslations.com">my translation business</a>
+                                <br>
+                                
+                                <br>
+                                <a href="https://twitter.com/quidproquotran1"></a>my twitter - tech, language, and my
+                                song translations:</a>
+                                <br>
+                                <a class="twitter-timeline" data-width="500" data-height="1000" data-theme="dark" href="https://twitter.com/quidproquotran1?ref_src=twsrc%5Etfw">Tweets
+                                    by quidproquotran1</a>
+                                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                <br>
+                                <a href="http://quidproquotranslations.com/prettyuseless.html">an archive of said translations, and a manifesto</a>
+                                <br>
+                                <a href="https://www.linkedin.com/in/oliverjlrenwick/">LinkedIn</a>
+                                <br>
+                                <a href="https://stackoverflow.com/users/10504254/oliver-renwick">stack overflow</a>
+                                <br>
+                                <a href="https://github.com/mapachurro">github </a>
+                                <br>
+                                <img src="./assets/images/githubpic.png">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                    
-                    <hr>
-                </section>
-            
 
-                <div class="clearfix">
-                <form id="contactform" action="">
-                    <p>Name </p><input type="text" name="Name" value="John Smith">
-                    
-                    <br>
-                    <p>Email </p><input type="text" name="Email" value="example@gmail.com">
-                    <br>
-                    <p>Message </p><textarea type="text" rows="6">
-                    </textarea>   
-                </form>
-
-                <button id="submitbutton">Submit</button>
-                      
-                
-
-                </div>
+            </div>
         </div>
     </div>
 
 
-<div id="tealline">
-</div>
-
-
-
-<footer id="brownline">Copyright © Oliver JL Renwick, 2018</footer>
 </body>
-
+<footer id="footer">Copyright Oliver Renwick, 2018</div>
+    </div>
 
 </html>

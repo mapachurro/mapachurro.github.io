@@ -1,0 +1,97 @@
+body, html {
+    width: 100%;
+    /* The image used */
+    background-image: url("../images/sunsetbanner.jpg");
+    background-color: #ED5F4B;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  * { box-sizing: border-box; }
+
+  body { font-family: sans-serif; }
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ED5F4B;
+ }
+
+ #linkbar {
+    color: #ED5F4B;
+ }
+ 
+ #biocard {
+     margin-top: 80px;
+    color: #ED5F4B;
+ }
+ 
+ #banner {
+    position: relative;
+    min-width: 100vw;
+    max-width: 100vw;
+ }
+ .caption {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+ }
+ 
+ #footer {
+      clear: left;
+      width: 100vw;
+      background-color:	black;
+      text-align: center;
+      font-size: medium;
+   }
+
+.p {
+   width: 200px;
+}   
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+
+/* Hereinafter: various attempts at responsive portfolio css */
+
+
+.container-fluid { max-width: 1200px; }
+
+
+.card {
+	background: #181319;
+   box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+   margin: 10px;
+	img {
+		width: 100%;
+   }
+}
+
+.card-block {
+   background: #2E3955;
+}
+
+
+[class*="row"] {
+	margin-bottom: 1em;
+  justify-content: center;
+}
+
+[class*="col-"] {
+	background: #efefef;
+	border: 1px solid #ddd;
+	padding-top: .75rem;
+	padding-bottom: .75rem;
+	width: 100%;
+}
+
+
+
+
+

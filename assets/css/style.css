@@ -1,229 +1,98 @@
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
+body, html {
+   height: 100%;
+   width: 100%;
+   /* The image used */
+   background-image: url("../images/sevilladusk.jpg");
+   background-color: #7C98E2;
 
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
 
-
-h2 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-}
-
-#topbar {
-    float: center;
-    max-width: 960px;
-    margin-left: 10vw;
-    margin-bottom: auto;
-    margin-top: auto;
-    border-bottom-color: #cccccc;
-}
-
-#name {
-    float: left;
-    margin-bottom: auto;
-    margin-top: auto;
-    background-color: #4aaaa5;
-    color: white;
-    padding: 2.5vh;
+*{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: #7C98E2;
 }
 
 #linkbar {
-    float: right;
-    margin-bottom: auto;
-    margin-top: auto;
-    background-color: #ffffff;
-    color:#777777;
-    padding-top: 2.5vh;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+   color: #7C98E2;
 }
 
-a {
-    color: gray;
+#biocard {
+    margin-top: 80px;
+   color: #7C98E2;
 }
 
-#background_gray {
-    float: left;
-    width: 100%;
-    height: 100%;
-    min-height: 94vh;
-    margin: auto;
-    border-top: 2px;
-    border-top-color: #cccccc;  
-    background-image: url(../images/tar_ant.JPG);
+#banner {
+   position: relative;
+   min-width: 100vw;
+   max-width: 100vw;
+}
+.caption {
+   position: absolute;
+   margin: 0;
+   top: 50%;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%);
 }
 
-#lowbar {
-    float: left;
-    margin: auto;
-}
-
-#about_content {
-    float: center;
-    margin-top: 20px;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    max-width: 960px;
-    min-height: 800px;
-    background-color: white;
-}
-
-#channels {
-    float: center: 
-}
-
-#About_title {
-    color:  #4aaaa5;
-}
-
-#headshot {
-    float: left;
-    margin-right: 10px;
-}
-
-p {
-    float: left;
-    clear: left;
-    color: #777777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-#tealline {
-    clear: left;
-    padding-top: .4vh;
-    background-color: #4aaaa5;
-}
-
-#brownline {
-    clear: left;
-    padding-top: 2vh;
-    background-color:	#666666;
-    text-align: center;
-    font-size: small;
-}
-
-/* Above this point is generic .css for all three pages.
-Below this point is .css that is unique to the 'contact' page. -OR*/
-
-#contactform {
-    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-#submitbutton {
-    float: left;
-    clear: left;
-    background-color: #4aaaa5;
-    Color: white;
-    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-input {
-    float: left;
-    clear: left;
-    width: 100%;
-    margin-bottom: 10px;
-    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-textarea {
-    float: left;
-    clear: left;
-    width: 100%;
-    margin-bottom: 8px;
-    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-/* The below content is unique to the portfolio page.
-*/
-
-#portfolio_content {
-    position: relative;
-    float: center;
-    margin-top: 2vh;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    padding-left: 20px;
-    padding-right: 2vw;
-    padding-bottom: 2vh;
-    width: 960px;
-    min-height: 60vh;
-    background-color: white;
-}
-
-#gallery {
-    
-}
-
-.gallery_photo {
-    float: left;
-    width: 200px;
-    padding: 20px;
-}
-
-.photobanner {
-    position: absolute;
-    top: 150px;
-    left: 20px;
-    width: 20vw;
-}
-
-.photobanner2 {
-    position: absolute;
-    top: 150px;
-    left: 260px;
-    width: 20vw;
-}
-
-.photobanner3 {
-    position: absolute;
-    top: 150px;
-    left: 500px;
-    width: 20vw;
-}
-
-.photobanner4 {
-    position: absolute;
-    top: 150px;
-    left: 740px;
-    width: 20vw;
-}
-
-h3 span {
-    color: #ffffff;
-    background-color: #4aaaa5;
-
+#footer {
+   clear: left;
+   width: 100vw;
+   background-color:	black;
+   text-align: center;
+   font-size: medium;
 }
 
 
-
-
-
-/*
-
-The following is for the link state exercise only*/
-
-/* unvisited link */
-a:link {
-    color: red;
+#headshot, #elevatorbio {
+   padding: 20px;
 }
 
-/* visited link */
-a:visited {
-    color: green;
-    font-size: 10px;
+.p {
+   margin-top: 10px;
 }
 
-/* mouse over link */
-a:hover {
-    color: hotpink;
-    font-size: 20px;
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+/* ---- grid ---- */
+
+.grid {
+  background: #EEE;
+  max-width: 1200px;
 }
 
-/* selected link */
-a:active {
-    color: blue;
-    font-style: bold;
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
 }
+
+/* ---- grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 20%;
+}
+
+.grid-item {
+  height: 120px;
+  float: left;
+  background: #D26;
+  border: 2px solid #333;
+  border-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 5px;
+}
+
+.grid-item--width2 { width:  40%; }
+.grid-item--width3 { width:  60%; }
+
+.grid-item--height2 { height: 200px; }
+.grid-item--height3 { height: 260px; }
+.grid-item--height4 { height: 360px; }
