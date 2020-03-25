@@ -17,7 +17,7 @@ export default function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">home</Link>
             </li>
             <li>
               <Link to="/portfolio">portfolio</Link>
@@ -32,13 +32,13 @@ export default function App() {
             renders the first one that matches the current URL. */}
         <Switch>
           <Route path="/portfolio">
-            <Stuff />
+            <Portfolio />
           </Route>
           <Route path="/channels">
-            <Contact />
+            <Channels />
           </Route>
           <Route path="/">
-            <About />
+            <Home />
           </Route>
         </Switch>
       </div>
@@ -46,14 +46,14 @@ export default function App() {
   );
 }
 
-function About() {
-  return Home;
-}
+// function About() {
+//   return Home;
+// }
 
-function Stuff() {
-  return Portfolio;
-}
+// function Stuff() {
+//   return Portfolio;
+// }
 
-function Contact() {
-  return Channels;
-}
+// function Contact() {
+//   return Channels;
+// }
