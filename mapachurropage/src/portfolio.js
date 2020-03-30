@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Navbar from './navbar';
+import './portfolio.css'
 
-function Portfolio() {
+class Portfolio extends Component {
+    render(){
     return (
+<div>
+    <Navbar />
    <div class="container">
         <div class="row">
             <div class="card" id="biocard">
@@ -16,7 +21,7 @@ function Portfolio() {
                             <div class="card-deck">
                                 <div class="card">
                                     <a href="https://github.com/mapachurro/triplethreat">   
-                                    <img class="card-img-top" id="triple" src="./assets/images/triplethreat.jpg"
+                                    <img class="card-img-top" id="triple" src="./assets/triplethreat.jpg"
                                         alt="Card image cap"></img></a>
                                      
                                     <div class="card-block">
@@ -28,7 +33,7 @@ function Portfolio() {
                                 
                                 <div class="card">
                                     <a href="http://www.quidproquotranslations.com">
-                                    <img class="card-img-top" id="qpq" src="assets/images/qpqhomepage.jpg"
+                                    <img class="card-img-top" id="qpq" src="./assets/qpqhomepage.jpg"
                                         alt="Card image cap"></img></a>
 
                                     <div class="card-block">
@@ -42,14 +47,14 @@ function Portfolio() {
 
                                 <div class="card">
                                     <a href="https://github.com/mapachurro/nodeserver">
-                                    <img class="card-img-top" id="nodeserv" src="assets/images/nodeserv.jpg"
+                                    <img class="card-img-top" id="nodeserv" src="./assets/nodeserv.jpg"
                                         alt="Card image cap"></img></a>
 
                                     <div class="card-block">
                                         <h4 class="card-title">my RPi Node Server</h4>
                                         <p class="card-text">This is the Node server I use to host my little business
                                             website on a Raspberry Pi. Please don't hack me, I have nothing with which
-                                            to pay a ransom :-)</p>
+                                            to pay a ransom</p>
                                         <p class="card-text"><small class="text-muted">1/2019</small></p>
                                     </div>
                                 </div>
@@ -214,10 +219,14 @@ function Portfolio() {
         </div>
         </div>
         </div>
+        </div>
 // <
 // <footer id="footer">Copyright Oliver Renwick, 2018</footer>></>
 
+
 );
+
+}
 }
 
 export default Portfolio;

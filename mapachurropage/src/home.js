@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Navbar from './navbar'
+import './index.css'
 
-function Home() {
+class Home extends Component {
+    render(){
   return (
-      
+<div>
+    <Navbar />
+
     <div class="container">
  
         <div class="container">
@@ -24,7 +29,8 @@ function Home() {
                                     member of Cleveland Legal Hackers.
                                     
                                     You can see some of the stuff I've built over on my
-                                    <a href="./portfolio.html">portfolio</a> page. </p>
+                                    <a href="./portfolio.html">portfolio</a> page. 
+                                    </p>
 
                                     <p>
                                         As a linguist, I have worked for the last decade in professional interpretation
@@ -57,8 +63,13 @@ function Home() {
             </div>
         </div>
     </div>
+    <div id="footer">
+        <p>Copyright Oliver JL Renwick, 2020
+        </p>
+    </div>
+</div>
   
 );
 }
-
+}
 export default Home;

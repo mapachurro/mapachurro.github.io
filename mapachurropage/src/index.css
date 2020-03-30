@@ -1,13 +1,99 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body, html {
+  height: 100%;
+  width: 100%;
+  /* The image used */
+  background-image: url("./assets/sevilladusk.jpg");
+  background-color: #7C98E2;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #7C98E2;
 }
+
+#linkbar {
+  color: #7C98E2;
+}
+
+#biocard {
+   margin-top: 80px;
+  color: #7C98E2;
+}
+
+#banner {
+  position: relative;
+  min-width: 100vw;
+  max-width: 100vw;
+}
+.caption {
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+#footer {
+  margin-top: 31vh;
+  width: 100vw;
+  background-color:	black;
+  text-align: center;
+  font-size: medium;
+  text-color: #7C98E2;
+}
+
+
+#headshot, #elevatorbio {
+  padding: 20px;
+}
+
+.p {
+  margin-top: 10px;
+}
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+/* ---- grid ---- */
+
+.grid {
+ background: #EEE;
+ max-width: 1200px;
+}
+
+/* clearfix */
+.grid:after {
+ content: '';
+ display: block;
+ clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+ width: 20%;
+}
+
+.grid-item {
+ height: 120px;
+ float: left;
+ background: #D26;
+ border: 2px solid #333;
+ border-color: hsla(0, 0%, 0%, 0.5);
+ border-radius: 5px;
+}
+
+.grid-item--width2 { width:  40%; }
+.grid-item--width3 { width:  60%; }
+
+.grid-item--height2 { height: 200px; }
+.grid-item--height3 { height: 260px; }
+.grid-item--height4 { height: 360px; }

@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
+import "./contact.css"
+import Navbar from './navbar'
 
-function Channels() {
+
+
+class Channels extends Component {
+    render(){
     return (
+<div>
+    <Navbar />
         
     <div class="container">
         <div class="container">
@@ -46,7 +53,8 @@ function Channels() {
             </div>
         </div>
     </div>
+    </div>
     );
 }
-
+}
 export default Channels;
