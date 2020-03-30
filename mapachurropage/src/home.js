@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
 import headshot from "./assets/small_headshot.jpg";
+import Navbar from './navbar'
+import './index.css'
 
-function Home() {
+class Home extends Component {
+    render(){
   return (
 
 <div class="homebackground">
+<div>
+    <Navbar />
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -58,9 +63,14 @@ function Home() {
         </div>
         <footer id="footer">Copyright Oliver Renwick, 2018</footer>
     </div>
+    <div id="footer">
+        <p>Copyright Oliver JL Renwick, 2020
+        </p>
+    </div>
+</div>
   
 
 );
 }
-
+}
 export default Home;
