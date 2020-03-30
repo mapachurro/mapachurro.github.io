@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import Navbar from './navbar';
-import './portfolio.css'
 
 class Portfolio extends Component {
     render(){
     return (
 <div class="portfoliobackground">
-   <div class="container" >
+
 <div>
     <Navbar />
    <div class="container">
@@ -221,9 +220,14 @@ class Portfolio extends Component {
         </div>
         </div>
         </div>
-<footer id="footer">Copyright Oliver Renwick, 2018</footer>
+        </div>
 
-</div>
+    <div id="footer">
+        Copyright Oliver JL Renwick, 2020
+    </div>
+        </div>
+      
+
 
 
 );

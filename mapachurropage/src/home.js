@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import headshot from "./assets/small_headshot.jpg";
 import Navbar from './navbar'
-import './index.css'
 
 class Home extends Component {
     render(){
@@ -58,14 +57,12 @@ class Home extends Component {
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
-        <footer id="footer">Copyright Oliver Renwick, 2018</footer>
     </div>
     <div id="footer">
-        <p>Copyright Oliver JL Renwick, 2020
-        </p>
+        Copyright Oliver JL Renwick, 2020
+        
     </div>
 </div>
   

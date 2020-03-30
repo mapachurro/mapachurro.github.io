@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import "./contact.css"
 import Navbar from './navbar'
-
-
 
 class Channels extends Component {
     render(){
@@ -43,7 +40,7 @@ class Channels extends Component {
                                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                                 <br></br>
                                 <a href="http://quidproquotranslations.com/prettyuseless.html">an archive of said
-              l                      translations, and a manifesto</a>
+                                    translations, and a manifesto</a>
                                 <br></br>
                             </div>
                            
@@ -52,9 +49,12 @@ class Channels extends Component {
                 </div>
 
             </div>
+            <div id="footer">
+        Copyright Oliver JL Renwick, 2020
+        
+</div>
         </div>
-        <br></br>
-        <footer id="footer">Copyright Oliver Renwick, 2018</footer>
+
     </div>
 
     </div>
