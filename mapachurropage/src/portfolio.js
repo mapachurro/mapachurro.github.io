@@ -1,5 +1,17 @@
 import React, { Component } from 'react';
 import Navbar from './navbar';
+import Triple from './assets/triplethreat.jpg';
+import QPQ from './assets/qpqhomepage.jpg';
+import Nodeserv from './assets/nodeserv.jpg';
+import KYR from './assets/knowyourrights.jpg';
+import Legaltrans from './assets/legaltranslator.JPG';
+import Boardmembers from './assets/boardmembers.jpg';
+import Pokemongym from './assets/pokemongym.jpg'
+import RPS from './assets/rps.jpg'
+import Biod from './assets/biod.jpg'
+import Yasaqi from './assets/yasaqi.jpg'
+import Gbaon from './assets/gbaon.png'
+
 
 class Portfolio extends Component {
     render(){
@@ -22,7 +34,7 @@ class Portfolio extends Component {
                             <div class="card-deck">
                                 <div class="card">
                                     <a href="https://github.com/mapachurro/triplethreat">   
-                                    <img class="card-img-top" id="triple" src="./assets/triplethreat.jpg"
+                                    <img class="card-img-top" id="triple" src={Triple}
                                         alt="Card image cap"></img></a>
                                      
                                     <div class="card-block">
@@ -34,7 +46,7 @@ class Portfolio extends Component {
                                 
                                 <div class="card">
                                     <a href="http://www.quidproquotranslations.com">
-                                    <img class="card-img-top" id="qpq" src="./assets/qpqhomepage.jpg"
+                                    <img class="card-img-top" id="qpq" src={QPQ}
                                         alt="Card image cap"></img></a>
 
                                     <div class="card-block">
@@ -48,21 +60,20 @@ class Portfolio extends Component {
 
                                 <div class="card">
                                     <a href="https://github.com/mapachurro/nodeserver">
-                                    <img class="card-img-top" id="nodeserv" src="./assets/nodeserv.jpg"
+                                    <img class="card-img-top" id="nodeserv" src={Nodeserv}
                                         alt="Card image cap"></img></a>
 
                                     <div class="card-block">
                                         <h4 class="card-title">my RPi Node Server</h4>
                                         <p class="card-text">This is the Node server I use to host my little business
-                                            website on a Raspberry Pi. Please don't hack me, I have nothing with which
-                                            to pay a ransom</p>
+                                            website on a Raspberry Pi. </p>
                                         <p class="card-text"><small class="text-muted">1/2019</small></p>
                                     </div>
                                 </div>
 
                                 <div class="card">
                                     <a href="http://clevelandmunicipalcourt.org/judicial-services/administrative-services/interpreter-services/miranda-rights">
-                                    <img class="card-img-top" id="cmc" src="./assets/images/knowyourrights.jpg"
+                                    <img class="card-img-top" id="cmc" src={KYR}
                                         alt="Card image cap"></img></a>
 
                                     <div class="card-block">
@@ -81,7 +92,7 @@ class Portfolio extends Component {
                                 <div class="row">
                                     <div class="card">
                                         <a href="https://github.com/mapachurro/Helpful-Legal-Translator">
-                                        <img class="card-img-top" id="board" src="./assets/images/legaltranslator.JPG"
+                                        <img class="card-img-top" id="board" src={Legaltrans}
                                             alt="Now everything sounds like an overpaid trial attorney!"></img></a>
 
                                         <div class="card-block">
@@ -94,7 +105,7 @@ class Portfolio extends Component {
                                     </div>
                                      <div class="card">
                                         <a href="https://obscure-lake-18655.herokuapp.com/">
-                                        <img class="card-img-top" id="board" src="./assets/images/boardmembers.jpg"
+                                        <img class="card-img-top" id="board" src={Boardmembers}
                                             alt="Hire and fire board members all day!"></img></a>
 
                                         <div class="card-block">
@@ -110,7 +121,7 @@ class Portfolio extends Component {
                                     <div class="card">
                                         <a href="http://www.oliverrenwick.com/Pokemon-Battle-Dome/">
                                             <img class="card-img-top" id="pokemongym"
-                                                src="./assets/images/pokemongym.jpg" alt="Card image cap"></img></a>
+                                                src={Pokemongym} alt="Card image cap"></img></a>
 
                                         <div class="card-block">
                                             <h4 class="card-title">Javascript Pokemon Battle Dome</h4>
@@ -123,7 +134,7 @@ class Portfolio extends Component {
                                     </div>
                                     <div class="card">
                                         <a href="https://mapachurro.github.io/RPS-Multiplayer/?">
-                                            <img class="card-img-top" id="rps" src="./assets/images/rps.jpg"
+                                            <img class="card-img-top" id="rps" src={RPS}
                                                 alt="Card image cap"></img></a>
                                         <div class="card-block">
                                             <h4 class="card-title">Remote Rock-Paper-Scissors game</h4>
@@ -139,7 +150,7 @@ class Portfolio extends Component {
 
                                 <div class="row">
                                     <div class="card">
-                                        <img class="card-img-top" id="biod" src="./assets/images/biod.jpg"
+                                        <img class="card-img-top" id="biod" src={Biod}
                                             alt="Card image cap"></img>
                                         <div class="card-block">
                                             <h4 class="card-title">COMING SOON: BIODIESEL FOR LOLs AND PROFIT</h4>
@@ -157,7 +168,7 @@ class Portfolio extends Component {
                                         </div>
                                     </div>
                                     <div class="card">
-                                        <img class="card-img-top" id="kham" src="./assets/images/yasaqi.jpg"
+                                        <img class="card-img-top" id="kham" src={Yasaqi}
                                             alt="Card image cap"></img>
                                         <div class="card-block">
                                             <h4 class="card-title">Arab Wine Poetry - Khamriyyat</h4>
@@ -174,7 +185,7 @@ class Portfolio extends Component {
                                     </div>
                                     <div class="card">
                                         <a href="https://www.amazon.com/dp/154254260X">
-                                            <img class="card-img-top" id="gbaon" src="./assets/images/gbaon.png"
+                                            <img class="card-img-top" id="gbaon" src={Gbaon}
                                                 alt="Card image cap"></img></a>
 
                                         <div class="card-block">
