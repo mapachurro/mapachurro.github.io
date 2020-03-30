@@ -2,7 +2,8 @@ import React from 'react';
 
 function Portfolio() {
     return (
-   <div class="container">
+<div class="portfoliobackground">
+   <div class="container" >
         <div class="row">
             <div class="card" id="biocard">
                 <div class="card-header bg-dark">
@@ -214,8 +215,9 @@ function Portfolio() {
         </div>
         </div>
         </div>
-// <
-// <footer id="footer">Copyright Oliver Renwick, 2018</footer>></>
+<footer id="footer">Copyright Oliver Renwick, 2018</footer>
+
+</div>
 
 );
 }

@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import Home from "./home";
 import Channels from "./channels";
-import Portfolio from "./portfolio"
+import Portfolio from "./portfolio";
 
 
 export default function App() {

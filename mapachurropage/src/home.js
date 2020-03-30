@@ -1,10 +1,10 @@
 import React from 'react';
+import headshot from "./assets/small_headshot.jpg";
 
 function Home() {
   return (
-      
-    <div class="container">
- 
+
+<div class="homebackground">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -14,7 +14,7 @@ function Home() {
                         </div>
                         <div class="card-body">
                             <div id="blurb">
-                                <img id="headshot" src="./assets/images/small_headshot.jpg"></img>
+                                <img id="headshot" src={headshot}></img>
                                 <div id="elevatorbio">
                                     <p>I'm a coder, linguist, writer.</p>
                                     <p>
@@ -24,7 +24,7 @@ function Home() {
                                     member of Cleveland Legal Hackers.
                                     
                                     You can see some of the stuff I've built over on my
-                                    <a href="./portfolio.html">portfolio</a> page. </p>
+                                    <a href="./portfolio.html"> portfolio</a> page. </p>
 
                                     <p>
                                         As a linguist, I have worked for the last decade in professional interpretation
@@ -45,7 +45,7 @@ function Home() {
                                         kids and Doing Life
                                         sucks up a lot of time otherwise Spent Writing), but I'm also working on
                                         amassing a collection of
-                                        translated songs--check that out over on the <a href="./portfolio.html">portfolio</a>
+                                        translated songs--check that out over on the <a href="./portfolio.html"> portfolio</a>
                                         as well.
                                     </p>
                                 </div>
@@ -56,8 +56,10 @@ function Home() {
 
             </div>
         </div>
+        <footer id="footer">Copyright Oliver Renwick, 2018</footer>
     </div>
   
+
 );
 }
 

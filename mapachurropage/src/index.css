@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body, html {
+  height: 100%;
+  }
+  .bg {
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .homebackground {
+    background-image: url(./assets/sevilladusk.jpg)
+  }
+
+  .channelsbackground{
+    background-image: url(./assets/DSC01556.JPG)
+  }
+  
+  .portfoliobackground{
+    background-image: url(./assets/DSC01430.JPG)
+  }

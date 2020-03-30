@@ -2,7 +2,7 @@ import React from 'react';
 
 function Channels() {
     return (
-        
+<div class="channelsbackground">
     <div class="container">
         <div class="container">
             <div class="row">
@@ -45,6 +45,10 @@ function Channels() {
 
             </div>
         </div>
+        <br></br>
+        <footer id="footer">Copyright Oliver Renwick, 2018</footer>
+    </div>
+
     </div>
     );
 }
