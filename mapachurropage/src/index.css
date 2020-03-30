@@ -117,3 +117,7 @@ body { font-family: sans-serif; }
 .grid-item--height2 { height: 200px; }
 .grid-item--height3 { height: 260px; }
 .grid-item--height4 { height: 360px; }
+
+.embed-responsive .card-img-top {
+  object-fit: cover;
+}

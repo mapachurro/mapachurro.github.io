@@ -47,9 +47,7 @@ class Home extends Component {
                                     <p>
                                         That's some of my writing, and other projects are mostly forthcoming (having
                                         kids and Doing Life
-                                        sucks up a lot of time otherwise Spent Writing), but I'm also working on
-                                        amassing a collection of
-                                        translated songs--check that out over on the <a href="./portfolio.html"> portfolio</a>
+                                        sucks up a lot of time otherwise Spent Coding or Writing) -- check that out over on the <a href="./portfolio.html"> portfolio </a>
                                         as well.
                                     </p>
                                 </div>
