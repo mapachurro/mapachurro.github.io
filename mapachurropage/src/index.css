@@ -54,22 +54,6 @@ body, html {
   }
 
 
-  .homebackground {
-    background-image: url(./assets/sevilladusk.jpg);
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .channelsbackground{
-    background-image: url(./assets/DSC01430.JPG);
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
   .portfoliobackground{
     background-image: url(./assets/DSC01556.JPG);
     height: 100vh;

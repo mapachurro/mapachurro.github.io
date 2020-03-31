@@ -11,13 +11,15 @@ import RPS from './assets/rps.jpg'
 import Biod from './assets/biod.jpg'
 import Yasaqi from './assets/yasaqi.jpg'
 import Gbaon from './assets/gbaon.png'
+import { Parallax } from 'react-parallax'
+import Sunset from './assets/DSC01556.JPG'
 
 
 class Portfolio extends Component {
     render(){
     return (
 <div class="portfoliobackground">
-
+<Parallax bgImage={Sunset} strength={200}>
 <div>
     <Navbar />
    <div class="container">
@@ -231,11 +233,13 @@ class Portfolio extends Component {
         </div>
         </div>
         </div>
-        </div>
-
-    <div id="footer">
+        <div id="footer">
         Copyright Oliver JL Renwick, 2020
     </div>
+        </div>
+
+
+</Parallax>
         </div>
       
 

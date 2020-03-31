@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
 import headshot from "./assets/small_headshot.jpg";
 import Navbar from './navbar'
+import { Parallax } from "react-parallax"
+import Sevilladusk from "./assets/sevilladusk.jpg"
+
 
 class Home extends Component {
     render(){
   return (
-
 <div class="homebackground">
+<Parallax bgImage={Sevilladusk} strength={100}>
+
 <div>
     <Navbar />
-        <div class="container">
+            <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="card" id="biocard">
@@ -57,11 +61,14 @@ class Home extends Component {
                 </div>
             </div>
         </div>
-    </div>
-    <div id="footer">
+        
+        <div id="footer">
         Copyright Oliver JL Renwick, 2020
         
+    </div>            
+        
     </div>
+    </Parallax>
 </div>
   
 

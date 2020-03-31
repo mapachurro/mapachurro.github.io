@@ -4,12 +4,15 @@ import QPQ from './assets/qpqhomepage.jpg';
 import Githubprof from './assets/githubprof.jpg';
 import Linkedin from './assets/linkedin.jpg';
 import Twitterpage from './assets/twitterpage.jpg'
+import { Parallax } from 'react-parallax';
+import Spires from "./assets/spires.jpg"
 
 
 class Channels extends Component {
     render(){
     return (
 <div class="channelsbackground">
+    <Parallax bgImage={Spires} strength={20}>
 <div>
     <Navbar />
         
@@ -66,7 +69,9 @@ class Channels extends Component {
     </div>
 
     </div>
+    </Parallax>
     </div>
+
     );
 }
 }
