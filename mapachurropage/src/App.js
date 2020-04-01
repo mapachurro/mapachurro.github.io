@@ -8,11 +8,9 @@ import {
 import Home from "./home";
 import Channels from "./channels";
 import Portfolio from "./portfolio";
-import {ParallaxProvider} from 'react-scroll-parallax'
 
 export default function App() {
   return (
-    <ParallaxProvider>
     <Router>
         <Switch>
           <Route path="/portfolio">
@@ -26,7 +24,6 @@ export default function App() {
           </Route>
         </Switch>
     </Router>
-    </ParallaxProvider>
   );
 }
 
