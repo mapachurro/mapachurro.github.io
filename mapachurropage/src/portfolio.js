@@ -4,15 +4,16 @@ import Triple from './assets/triplethreat.jpg';
 import QPQ from './assets/qpqhomepage.jpg';
 import Nodeserv from './assets/nodeserv.jpg';
 import KYR from './assets/knowyourrights.jpg';
+import Openlease from './assets/Openlease.jpg';
 import Legaltrans from './assets/legaltranslator.JPG';
 import Boardmembers from './assets/boardmembers.jpg';
-import Pokemongym from './assets/pokemongym.jpg'
-import RPS from './assets/rps.jpg'
-import Biod from './assets/biod.jpg'
-import Yasaqi from './assets/yasaqi.jpg'
-import Gbaon from './assets/gbaon.png'
-import { Parallax } from 'react-parallax'
-import Sunset from './assets/DSC01556.JPG'
+import Pokemongym from './assets/pokemongym.jpg';
+import RPS from './assets/rps.jpg';
+import Biod from './assets/biod.jpg';
+import Yasaqi from './assets/yasaqi.jpg';
+import Gbaon from './assets/gbaon.png';
+import { Parallax } from 'react-parallax';
+import Sunset from './assets/DSC01556.JPG';
 
 
 class Portfolio extends Component {
@@ -30,7 +31,6 @@ class Portfolio extends Component {
                 </div>
 
                 <div class="container-fluid">
-                    {/* <!-- avast! here there be content --> */}
                     <div class="container-fluid">
                         <div class="row">
                             <div class="card-deck">
@@ -41,7 +41,7 @@ class Portfolio extends Component {
                                      
                                     <div class="card-block">
                                         <h4 class="card-title">triple threat</h4>
-                                        <p class="card-text">A simple page that I built to practice vertical centering content and integration of i18n, in this case using i18next's React implementation.</p>
+                                        <p class="card-text">A page that I built to practice three things I like: React, vertically centering content, and i18n, in this case using i18next's React implementation.</p>
                                         <p class="card-text"><small class="text-muted">2/2020</small></p>
                                     </div>
                                 </div>
@@ -61,6 +61,19 @@ class Portfolio extends Component {
                                 </div> 
 
                                 <div class="card">
+                                    <a href="https://github.com/mapachurro/OpenLease">
+                                    <img class="card-img-top" id="Openlease" src={Openlease}
+                                        alt="Card image cap"></img></a>
+
+                                    <div class="card-block">
+                                        <h4 class="card-title">The OpenLease Project</h4>
+                                        <p class="card-text">The goal of the OpenLease Project is to offer tenants and landlords the opportunity to build custom leases based on editable templates and digitally sign and record them on the Ethereum blockchain--thus preserving for perpetuity the lease and any modifications thereof. I am currently rebuilding it in React, with plans to link it to a self-hosted instance of OpenLaw, the underlying technology, on Kaleido.</p>
+                                        <p class="card-text"><small class="text-muted">1/2019</small></p>
+                                    </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="card">
                                     <a href="https://github.com/mapachurro/nodeserver">
                                     <img class="card-img-top" id="nodeserv" src={Nodeserv}
                                         alt="Card image cap"></img></a>
@@ -68,7 +81,7 @@ class Portfolio extends Component {
                                     <div class="card-block">
                                         <h4 class="card-title">my RPi Node Server</h4>
                                         <p class="card-text">This is the Node server I use to host my little business
-                                            website on a Raspberry Pi. </p>
+                                            website on a Raspberry Pi. It's simple, but I'm proud of it because it's the first coding project I did, and I taught myself to do it, before taking any courses--and the only reason it fails is when my ISP-provided router blocks access to it. </p>
                                         <p class="card-text"><small class="text-muted">1/2019</small></p>
                                     </div>
                                 </div>
@@ -91,7 +104,6 @@ class Portfolio extends Component {
                                     </div>
                                 </div>
 
-                                <div class="row">
                                     <div class="card">
                                         <a href="https://github.com/mapachurro/Helpful-Legal-Translator">
                                         <img class="card-img-top" id="board" src={Legaltrans}
@@ -105,6 +117,9 @@ class Portfolio extends Component {
                                             <p class="card-text"><small class="text-muted">3/2020</small></p>
                                         </div>
                                     </div>
+                                    </div>
+                                    
+                                    <div class="row">
                                      <div class="card">
                                         <a href="https://obscure-lake-18655.herokuapp.com/">
                                         <img class="card-img-top" id="board" src={Boardmembers}
@@ -119,7 +134,8 @@ class Portfolio extends Component {
                                             </p>
                                             <p class="card-text"><small class="text-muted">2/2019</small></p>
                                         </div>
-                                    </div> 
+                                    </div>
+
                                     <div class="card">
                                         <a href="http://www.oliverrenwick.com/Pokemon-Battle-Dome/">
                                             <img class="card-img-top" id="pokemongym"
@@ -134,6 +150,7 @@ class Portfolio extends Component {
                                             <p class="card-text"><small class="text-muted">1/2019</small></p>
                                         </div>
                                     </div>
+
                                     <div class="card">
                                         <a href="https://mapachurro.github.io/RPS-Multiplayer/?">
                                             <img class="card-img-top" id="rps" src={RPS}
@@ -205,28 +222,8 @@ class Portfolio extends Component {
                                             <p class="card-text"><small class="text-muted">1/2019</small></p>
                                         </div>
                                     </div>
-
-
-
-                                {/* <!-- Here's an extra card for further postings --> */}
-
-                            {/* <div class="card">
-                                <img class="card-img-top" id="cmc" src="./assets/images/knowyourrights.jpg" alt="Card image cap">
-                                <div class="card-block">
-                                    <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural
-                                        lead-in to additional content. This card has even longer content than the first
-                                        to show that equal height action.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                </div> -->
-                                </div>
-
-                            </div> */}
-
-
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -237,8 +234,6 @@ class Portfolio extends Component {
         Copyright Oliver JL Renwick, 2020
     </div>
         </div>
-
-
 </Parallax>
         </div>
       
