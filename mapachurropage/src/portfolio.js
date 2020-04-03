@@ -230,11 +230,12 @@ class Portfolio extends Component {
         </div>
         </div>
         </div>
+        </div>
         <div id="portfoliofooter">
         Copyright Oliver JL Renwick, 2020
     </div>
-        </div>
 </Parallax>
+
         </div>
       
 

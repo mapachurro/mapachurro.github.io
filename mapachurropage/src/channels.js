@@ -6,21 +6,19 @@ import Linkedin from './assets/linkedin.jpg';
 import Twitterpage from './assets/twitterpage.jpg'
 import { Parallax } from 'react-parallax';
 import Spires from "./assets/spires.jpg"
-
-
 class Channels extends Component {
     render(){
     return (
 <div class="channelsbackground">
     <Parallax bgImage={Spires} strength={20}>
+
 <div>
-    <Navbar />
-        
-    <div class="container">
+    <Navbar />        
+
         <div class="container">
             <div class="row">
                 <div class="col-8">
-                    <div class="card" id="biocard">
+                    <div class="card" id="channelcard">
                         <div class="card-header bg-dark">
                             <h3 id='name'>my channels</h3>
                         </div>
@@ -59,16 +57,15 @@ class Channels extends Component {
                     </div>
                 </div>
 
-            </div>
-            <div id="channelfooter">
-        Copyright Oliver JL Renwick, 2020
-        
-</div>
         </div>
 
     </div>
 
     </div>
+    <div id="channelfooter">
+        Copyright Oliver JL Renwick, 2020
+        
+</div>
     </Parallax>
     </div>
 

@@ -15,16 +15,7 @@ body, html {
   color: #7C98E2;
 }
 
-#biocard {
-   margin-top: 80px;
-  color: #7C98E2;
-}
 
-#banner {
-  position: relative;
-  min-width: 100vw;
-  max-width: 100vw;
-}
 .caption {
   position: absolute;
   margin: 0;
@@ -32,11 +23,6 @@ body, html {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-}
-
-
-#headshot, #elevatorbio {
-  padding: 20px;
 }
 
 .p {
@@ -49,32 +35,34 @@ body, html {
 }
 
 /* HOME-SPECIFIC */
+
+#biocard {
+  margin-top: 80px;
+  color: #BD9414
+}
+
+.elevatorbio {
+  color:#BD9414; 
+}
+
+#headshot, #elevatorbio {
+  padding: 20px;
+}
+
 #homefooter {
   margin-top: 31vh;
   width: 100vw;
   background-color:	black;
   text-align: center;
   font-size: medium;
-  color: #F4CD44;
+  color: #BD9414;
 }
 
 
 /* PORTFOLIO-SPECIFIC */
 
-.portfoliobackground{
-  background-image: url(./assets/DSC01556.JPG);
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-* { box-sizing: border-box; }
-
 .portfolio {
-  color: #F3603E;
-}
-
-.portheader {
+  margin-top: 80px;
   color: #F3603E;
 }
 
@@ -102,4 +90,8 @@ body, html {
   text-align: center;
   font-size: medium;
   color: #C68B85;
+}
+#channelcard {
+  margin-top: 80px;
+  color: #C68B85
 }
