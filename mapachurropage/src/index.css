@@ -1,12 +1,14 @@
 body, html {
   height: 100%;
   width: 100%;
-
 }
 
 *{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: #7C98E2;
+}
+
+.card {
+  background-color: #202020;
 }
 
 .navbar {
@@ -32,14 +34,6 @@ body, html {
   transform: translate(-50%, -50%);
 }
 
-#footer {
-  margin-top: 31vh;
-  width: 100vw;
-  background-color:	black;
-  text-align: center;
-  font-size: medium;
-  color: #7C98E2;
-}
 
 #headshot, #elevatorbio {
   padding: 20px;
@@ -47,61 +41,65 @@ body, html {
 
 .p {
   margin-top: 10px;
+  background-color: #202020;
 }
-
-body, html {
-  height: 100%;
-  }
-
-
-  .portfoliobackground{
-    background-image: url(./assets/DSC01556.JPG);
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-* { box-sizing: border-box; }
-
-body { font-family: sans-serif; }
-
-/* ---- grid ---- */
-
-.grid {
- background: #EEE;
- max-width: 1200px;
-}
-
-/* clearfix */
-.grid:after {
- content: '';
- display: block;
- clear: both;
-}
-
-/* ---- grid-item ---- */
-
-.grid-sizer,
-.grid-item {
- width: 20%;
-}
-
-.grid-item {
- height: 120px;
- float: left;
- background: #D26;
- border: 2px solid #333;
- border-color: hsla(0, 0%, 0%, 0.5);
- border-radius: 5px;
-}
-
-.grid-item--width2 { width:  40%; }
-.grid-item--width3 { width:  60%; }
-
-.grid-item--height2 { height: 200px; }
-.grid-item--height3 { height: 260px; }
-.grid-item--height4 { height: 360px; }
 
 .embed-responsive .card-img-top {
   object-fit: cover;
+}
+
+/* HOME-SPECIFIC */
+#homefooter {
+  margin-top: 31vh;
+  width: 100vw;
+  background-color:	black;
+  text-align: center;
+  font-size: medium;
+  color: #F4CD44;
+}
+
+
+/* PORTFOLIO-SPECIFIC */
+
+.portfoliobackground{
+  background-image: url(./assets/DSC01556.JPG);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* { box-sizing: border-box; }
+
+.portfolio {
+  color: #F3603E;
+}
+
+.portheader {
+  color: #F3603E;
+}
+
+.portfoliocards {
+  background: #1B1E23;
+  color: #F3603E;
+}
+
+#portfoliofooter {
+  margin-top: 31vh;
+  width: 100vw;
+  background-color:	black;
+  text-align: center;
+  font-size: medium;
+  color: #F3603E;
+}
+
+
+/* CHANNELS-SPECIFIC */
+
+#channelfooter {
+  margin-top: 31vh;
+  width: 100vw;
+  background-color:	black;
+  text-align: center;
+  font-size: medium;
+  color: #C68B85;
 }

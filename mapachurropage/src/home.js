@@ -62,7 +62,7 @@ class Home extends Component {
             </div>
         </div>
         
-        <div id="footer">
+        <div id="homefooter">
         Copyright Oliver JL Renwick, 2020
         
     </div>            

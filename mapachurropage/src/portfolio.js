@@ -23,14 +23,14 @@ class Portfolio extends Component {
 <Parallax bgImage={Sunset} strength={200}>
 <div>
     <Navbar />
-   <div class="container">
+   <div class="container portfolio">
         <div class="row">
-            <div class="card" id="biocard">
+            <div class="card" id="portheader">
                 <div class="card-header bg-dark">
                     <h3 id='name'>my work</h3>
                 </div>
 
-                <div class="container-fluid">
+                <div class="container-fluid portfoliocards">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="card-deck">
@@ -230,7 +230,7 @@ class Portfolio extends Component {
         </div>
         </div>
         </div>
-        <div id="footer">
+        <div id="portfoliofooter">
         Copyright Oliver JL Renwick, 2020
     </div>
         </div>

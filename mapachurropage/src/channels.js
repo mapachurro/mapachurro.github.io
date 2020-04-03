@@ -60,7 +60,7 @@ class Channels extends Component {
                 </div>
 
             </div>
-            <div id="footer">
+            <div id="channelfooter">
         Copyright Oliver JL Renwick, 2020
         
 </div>
