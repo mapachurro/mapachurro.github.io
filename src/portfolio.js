@@ -14,13 +14,236 @@ import Yasaqi from './assets/yasaqi.jpg';
 import Gbaon from './assets/gbaon.png';
 import { Parallax } from 'react-parallax';
 import Sunset from './assets/DSC01556.JPG';
-
+import Mistycity from './assets/mistycity.jpg';
+import Cloudytown from './assets/cloudytown.jpg'
 
 class Portfolio extends Component {
     render(){
     return (
+
 <div class="portfoliobackground">
-<Parallax bgImage={Sunset} strength={200}>
+
+<Navbar />
+
+<div >
+    <Parallax bgImage={Sunset} strength={500}>
+      <div style={{ height: 700 }}>
+      <div class="container portfolio">
+        <div class="row">
+            <div class="card" id="portheader">
+                <div class="card-header bg-dark">
+                    <h3 id='name'>my work</h3>
+                </div>
+
+                <div class="container-fluid portfoliocards">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="card-deck">
+                                <div class="card">
+                                    <a href="https://github.com/mapachurro/triplethreat">   
+                                    <img class="card-img-top" id="triple" src={Triple}
+                                        alt="Card image cap"></img></a>
+                                     
+                                    <div class="card-block">
+                                        <h4 class="card-title">triple threat</h4>
+                                        <p class="card-text">A page that I built to practice three things I like: React, vertically centering content, and i18n, in this case using i18next's React implementation.</p>
+                                        <p class="card-text"><small class="text-muted">2/2020</small></p>
+                                    </div>
+                                </div>
+                                
+                                <div class="card">
+                                    <a href="http://www.quidproquotranslations.com">
+                                    <img class="card-img-top" id="qpq" src={QPQ}
+                                        alt="Card image cap"></img></a>
+
+                                    <div class="card-block">
+                                        <h4 class="card-title">my translation business' website</h4>
+                                        <p class="card-text">I've worked in legal interpretation and translation since
+                                            2010; this is the new and improved small, static website I maintain for my
+                                            business.</p>
+                                        <p class="card-text"><small class="text-muted">1/2019</small></p>
+                                    </div>
+                                </div> 
+
+                                <div class="card">
+                                    <a href="https://github.com/mapachurro/OpenLease">
+                                    <img class="card-img-top" id="Openlease" src={Openlease}
+                                        alt="Card image cap"></img></a>
+
+                                    <div class="card-block">
+                                        <h4 class="card-title">The OpenLease Project</h4>
+                                        <p class="card-text">The goal of the OpenLease Project is to offer tenants and landlords the opportunity to build custom leases based on editable templates and digitally sign and record them on the Ethereum blockchain--thus preserving for perpetuity the lease and any modifications thereof. I am currently rebuilding it in React, with plans to link it to a self-hosted instance of OpenLaw, the underlying technology, on Kaleido.</p>
+                                        <p class="card-text"><small class="text-muted">1/2019</small></p>
+                                    </div>
+                            </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+    </Parallax>
+    <br></br>
+    <Parallax bgImage={Mistycity} strength={500}>
+    <div style={{ height: 800 }}>
+    <div class="container portfolio">
+        <div class="row">
+            <div class="card" id="portheader">
+            <div class="card-header bg-dark">
+                    
+                </div>
+                <div class="container-fluid portfoliocards">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="card-deck">
+                            <div class="card">
+                                    <a href="https://github.com/mapachurro/nodeserver">
+                                    <img class="card-img-top" id="nodeserv" src={Nodeserv}
+                                        alt="Card image cap"></img></a>
+
+                                    <div class="card-block">
+                                        <h4 class="card-title">my RPi Node Server</h4>
+                                        <p class="card-text">This is the Node server I use to host my little business
+                                            website on a Raspberry Pi. It's simple, but I'm proud of it because it's the first coding project I did, and I taught myself to do it, before taking any courses--and the only reason it fails is when my ISP-provided router blocks access to it. </p>
+                                        <p class="card-text"><small class="text-muted">1/2019</small></p>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <a href="http://clevelandmunicipalcourt.org/judicial-services/administrative-services/interpreter-services/miranda-rights">
+                                    <img class="card-img-top" id="cmc" src={KYR}
+                                        alt="Card image cap"></img></a>
+
+                                    <div class="card-block">
+                                        <h4 class="card-title">Multilingual Rights Videos</h4>
+                                        <p class="card-text">At Cleveland Municipal Court, we had our 'basic rights
+                                            speech' for criminal defendants translated into a number of languages,
+                                            then had the translators record a spoken version, put them into videos and
+                                            built a section of the Court's website so that they're accessible
+                                            to the world. It was a team effort, and I helped source the translations,
+                                            make the recordings, and I built all the videos.
+                                        </p>
+                                        <p class="card-text"><small class="text-muted">1/2019</small></p>
+                                    </div>
+                                </div>
+
+                                    <div class="card">
+                                        <a href="https://github.com/mapachurro/Helpful-Legal-Translator">
+                                        <img class="card-img-top" id="board" src={Legaltrans}
+                                            alt="Now everything sounds like an overpaid trial attorney!"></img></a>
+
+                                        <div class="card-block">
+                                            <h4 class="card-title">Helpful Legal Terminology Translator</h4>
+                                            <p class="card-text">Chrome extension that replaces everyday English with its unnecessarily eruduite legalese equivalent.
+                                                We've all heard the recommendations: 'Write to be understood!' 'Make your texts accessible!' That's all well and good, but for those times that you'd really rather be reading something that reads like a boilerplate legal template from the 19th century, well -- now everything can read like that.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">3/2020</small></p>
+                                        </div>
+                                    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+    </Parallax>
+
+<br></br>
+
+    <Parallax bgImage={Cloudytown} strength={500}>
+      <div style={{ height: 800 }}>
+
+      <div class="container portfolio">
+        <div class="row">
+            <div class="card" id="portheader">
+            <div class="card-header bg-dark">
+                    
+                </div>
+                <div class="container-fluid portfoliocards">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="card-deck">
+                            <div class="card">
+                                        <a href="https://obscure-lake-18655.herokuapp.com/">
+                                        <img class="card-img-top" id="board" src={Boardmembers}
+                                            alt="Hire and fire board members all day!"></img></a>
+
+                                        <div class="card-block">
+                                            <h4 class="card-title">ABC Corporation Board Member Management System</h4>
+                                            <p class="card-text">This grew out of a conversation with my wife, who was struggling to keep
+                                                accurate, user-friendly records of the board members at her organization. It's a simple full stack web 
+                                                app that would allow you to add and remove board members easily -- with the opportunity to expand the 
+                                                database and include pictures, personal info, etc.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">2/2019</small></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <a href="http://www.oliverrenwick.com/Pokemon-Battle-Dome/">
+                                            <img class="card-img-top" id="pokemongym"
+                                                src={Pokemongym} alt="Card image cap"></img></a>
+
+                                        <div class="card-block">
+                                            <h4 class="card-title">Javascript Pokemon Battle Dome</h4>
+                                            <p class="card-text">This is a simple game that I built initially as
+                                                homework assignment for bootcamp. I revisited it later and rebuilt
+                                                it properly, which my kids appreciated greatly.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">1/2019</small></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <a href="https://mapachurro.github.io/RPS-Multiplayer/?">
+                                            <img class="card-img-top" id="rps" src={RPS}
+                                                alt="Card image cap"></img></a>
+                                        <div class="card-block">
+                                            <h4 class="card-title">Remote Rock-Paper-Scissors game</h4>
+                                            <p class="card-text">I made this game for an assignment at CWRU's
+                                                bootcamp--it's rudimentary, but if two sessions are
+                                                connected and usernames entered, you can play rock-paper-scissors one
+                                                round at a time, with basic chat functionality as well,
+                                                using Google Firebase as a backend.</p>
+                                            <p class="card-text"><small class="text-muted">1/2019</small></p>
+                                        </div>
+                                    </div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+      </div>
+    </Parallax>
+<br></br>
+    <Parallax
+      bgImage={Sunset} strength={200}>
+      <div style={{ height: 500 }}>
+      
+         
+      <div class="row">
+                                </div>
+
+      
+      
+      </div>
+
+
+    </Parallax>
+
+
+<Parallax bgImage={Sunset} strength={500} style ={{height: 800}}>
+<Parallax bgImage={Mistycity} strength={200} style ={{height: 800}}>
 <div>
     <Navbar />
    <div class="container portfolio">
@@ -234,7 +457,9 @@ class Portfolio extends Component {
         <div id="portfoliofooter">
         Copyright Oliver JL Renwick, 2020
     </div>
+    </Parallax>
 </Parallax>
+</div>
 
         </div>
       
