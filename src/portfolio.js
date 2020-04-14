@@ -23,7 +23,7 @@ class Portfolio extends Component {
     render(){
     return (
 
-<div class="portfoliobackground">
+<div id="portfoliobackground">
 
 <Navbar />
 
