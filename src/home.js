@@ -22,7 +22,7 @@ class Home extends Component {
                         </div>
                         <div class="card-body">
                             <div id="blurb">
-                                <img id="headshot" src={headshot}></img>
+                                <img id="headshot" src={headshot} alt="Headshot of Oliver Renwick"></img>
                                 <div id="elevatorbio">
                                     <p>I'm a coder, linguist, writer.</p>
                                     <p>

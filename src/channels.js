@@ -31,15 +31,15 @@ class Channels extends Component {
                                 {/* This next line will eventually be a cool embedded badge */}
                                 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
                                 <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="oliverjlrenwick"><a class="LI-simple-link" href='https://www.linkedin.com/in/oliverjlrenwick?trk=profile-badge'></a></div>
-                                <a href="https://www.linkedin.com/in/oliverjlrenwick/"><img class = "card-image-top embed-responsive" id="linkedin" src={Linkedin}></img></a>
+                                <a href="https://www.linkedin.com/in/oliverjlrenwick/"><img class = "card-image-top embed-responsive" id="linkedin" src={Linkedin} alt="LinkedIn screenshot"></img></a>
                                 <br></br>
                                 {/* <a href="https://stackoverflow.com/users/10504254/oliver-renwick">stack overflow</a>
                                 <br></br> */}
                                 <a href="https://github.com/mapachurro">github</a>
-                                <a href="https://github.com/mapachurro" ><img class= "card-image-top embed-responsive" id="githubpic" src={Githubprof}></img></a>
+                                <a href="https://github.com/mapachurro" ><img class= "card-image-top embed-responsive" id="githubpic" src={Githubprof} alt="Github screenshot"></img></a>
                                 <br></br>
                                 <a href="https://twitter.com/mapachurro">twitter</a>
-                                <a href="https://twitter.com/mapachurro"><img class= "card-image-top embed-responsive" id="twitterpage" src={Twitterpage}></img></a>
+                                <a href="https://twitter.com/mapachurro"><img class= "card-image-top embed-responsive" id="twitterpage" src={Twitterpage} alt="Twitter screenshot"></img></a>
                                 <br></br>
                                 {/* Again, this next line will be an embedded Twitter feed */}
                                 <a class="twitter-timeline" href="https://twitter.com/mapachurro?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -48,7 +48,7 @@ class Channels extends Component {
                                 <br></br>
                                 <a href="http://www.quidproquotranslations.com">my translation business</a>
                                     <br></br>
-                                    <img class="card-image-top embed-responsive" id="qpq" src={QPQ}></img>
+                                    <img class="card-image-top embed-responsive" id="qpq" src={QPQ} alt="QPQ screenshot"></img>
                                 
                                 <br></br>
                             </div>

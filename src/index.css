@@ -61,6 +61,11 @@ body, html {
 
 /* PORTFOLIO-SPECIFIC */
 
+#portfoliobackground {
+  background: #1B1E23;
+  width:100vw;
+}
+
 .portfolio {
   margin-top: 80px;
   color: #F3603E;
@@ -72,12 +77,16 @@ body, html {
 }
 
 #portfoliofooter {
-  margin-top: 31vh;
+  margin-top: 15vh;
   width: 100vw;
   background-color:	black;
   text-align: center;
   font-size: medium;
   color: #F3603E;
+}
+
+#br {
+  background: #1B1E23;
 }
 
 
