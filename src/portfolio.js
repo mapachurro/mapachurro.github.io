@@ -13,7 +13,6 @@ import Biod from './assets/biod.jpg';
 import Yasaqi from './assets/yasaqi.jpg';
 import Gbaon from './assets/gbaon.png';
 import { Parallax } from 'react-parallax';
-import Sunset from './assets/DSC01556.JPG';
 import Mistycity from './assets/mistycity.jpg';
 import Cloudytown from './assets/cloudytown.jpg';
 import Barcos from './assets/barcos.jpg';
@@ -44,7 +43,7 @@ class Portfolio extends Component {
                                 <div class="card">
                                     <a href="https://github.com/mapachurro/triplethreat">   
                                     <img class="card-img-top" id="triple" src={Triple}
-                                        alt="Card image cap"></img></a>
+                                        alt="Triplethreat screenshot"></img></a>
                                      
                                     <div class="card-block">
                                         <h4 class="card-title">triple threat</h4>
@@ -56,7 +55,7 @@ class Portfolio extends Component {
                                 <div class="card">
                                     <a href="http://www.quidproquotranslations.com">
                                     <img class="card-img-top" id="qpq" src={QPQ}
-                                        alt="Card image cap"></img></a>
+                                        alt="QPQ screenshot"></img></a>
 
                                     <div class="card-block">
                                         <h4 class="card-title">my translation business' website</h4>
@@ -70,7 +69,7 @@ class Portfolio extends Component {
                                 <div class="card">
                                     <a href="https://github.com/mapachurro/OpenLease">
                                     <img class="card-img-top" id="Openlease" src={Openlease}
-                                        alt="Card image cap"></img></a>
+                                        alt="OpenLease screenshot"></img></a>
 
                                     <div class="card-block">
                                         <h4 class="card-title">The OpenLease Project</h4>
@@ -103,7 +102,7 @@ class Portfolio extends Component {
                             <div class="card">
                                     <a href="https://github.com/mapachurro/nodeserver">
                                     <img class="card-img-top" id="nodeserv" src={Nodeserv}
-                                        alt="Card image cap"></img></a>
+                                        alt="Node server screenshot"></img></a>
 
                                     <div class="card-block">
                                         <h4 class="card-title">my RPi Node Server</h4>
@@ -116,7 +115,7 @@ class Portfolio extends Component {
                                 <div class="card">
                                     <a href="http://clevelandmunicipalcourt.org/judicial-services/administrative-services/interpreter-services/miranda-rights">
                                     <img class="card-img-top" id="cmc" src={KYR}
-                                        alt="Card image cap"></img></a>
+                                        alt="Muni Court screenshot"></img></a>
 
                                     <div class="card-block">
                                         <h4 class="card-title">Multilingual Rights Videos</h4>
@@ -188,7 +187,7 @@ class Portfolio extends Component {
                                     <div class="card">
                                         <a href="https://github.com/mapachurro/Pokemon-Battle-Dome">
                                             <img class="card-img-top" id="pokemongym"
-                                                src={Pokemongym} alt="Card image cap"></img></a>
+                                                src={Pokemongym} alt="Pokemon screenshot"></img></a>
 
                                         <div class="card-block">
                                             <h4 class="card-title">Javascript Pokemon Battle Dome</h4>
@@ -203,7 +202,7 @@ class Portfolio extends Component {
                                     <div class="card">
                                         <a href="https://github.com/mapachurro/RPS-Multiplayer">
                                             <img class="card-img-top" id="rps" src={RPS}
-                                                alt="Card image cap"></img></a>
+                                                alt="RPS Screenshot"></img></a>
                                         <div class="card-block">
                                             <h4 class="card-title">Remote Rock-Paper-Scissors game</h4>
                                             <p class="card-text">I made this game for an assignment at CWRU's
@@ -244,7 +243,7 @@ class Portfolio extends Component {
                             <div class="card-deck">
                             <div class="card">
                                         <img class="card-img-top" id="biod" src={Biod}
-                                            alt="Card image cap"></img>
+                                            alt="Biodiesel processor image - old"></img>
                                         <div class="card-block">
                                             <h4 class="card-title">COMING SOON: BIODIESEL FOR LOLs AND PROFIT</h4>
                                             <p class="card-text">I've been making biodiesel in my garage for a year or
@@ -262,7 +261,7 @@ class Portfolio extends Component {
                                     </div>
                                     <div class="card">
                                         <img class="card-img-top" id="kham" src={Yasaqi}
-                                            alt="Card image cap"></img>
+                                            alt="khamriyyat"></img>
                                         <div class="card-block">
                                             <h4 class="card-title">Arab Wine Poetry - Khamriyyat</h4>
                                             <p class="card-text">One of my favorite translations I've ever done was for
@@ -279,7 +278,7 @@ class Portfolio extends Component {
                                     <div class="card">
                                         <a href="https://www.amazon.com/dp/154254260X">
                                             <img class="card-img-top" id="gbaon" src={Gbaon}
-                                                alt="Card image cap"></img></a>
+                                                alt="GBAON cover"></img></a>
 
                                         <div class="card-block">
                                             <h4 class="card-title">God by Any Other Name</h4>
