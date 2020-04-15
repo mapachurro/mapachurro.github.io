@@ -26,9 +26,9 @@ class Portfolio extends Component {
 
 <Navbar />
 
-<div >
+<div id="parallax-box">
     <Parallax bgImage={Plazasoleada} strength={500}>
-      <div style={{ height: 700 }}>
+      <div>
       <div class="container portfolio">
         <div class="row">
             <div class="card" id="portheader">
@@ -88,7 +88,7 @@ class Portfolio extends Component {
     </Parallax>
     <br></br>
     <Parallax bgImage={Mistycity} strength={500}>
-    <div style={{ height: 800 }}>
+    <div>
     <div class="container portfolio">
         <div class="row">
             <div class="card" id="portheader">
@@ -156,7 +156,7 @@ class Portfolio extends Component {
 <br></br>
 
     <Parallax bgImage={Cloudytown} strength={500}>
-      <div style={{ height: 700 }}>
+      <div>
 
       <div class="container portfolio">
         <div class="row">
@@ -229,7 +229,7 @@ class Portfolio extends Component {
 <br></br>
     <Parallax
       bgImage={Barcos} strength={200}>
-      <div style={{ height: 950 }}>
+      <div>
       
       <div class="container portfolio">
         <div class="row">
