@@ -243,7 +243,7 @@ class Portfolio extends Component {
                             <div class="card-deck">
                             <div class="card">
                                         <img class="card-img-top" id="biod" src={Biod}
-                                            alt="Biodiesel processor image - old"></img>
+                                            alt="Biodiesel processor - old"></img>
                                         <div class="card-block">
                                             <h4 class="card-title">COMING SOON: BIODIESEL FOR LOLs AND PROFIT</h4>
                                             <p class="card-text">I've been making biodiesel in my garage for a year or
