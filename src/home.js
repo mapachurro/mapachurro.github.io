@@ -32,7 +32,7 @@ class Home extends Component {
                                     member of Cleveland Legal Hackers.
                                     
                                     You can see some of the stuff I've built over on my
-                                    <a href="./portfolio.html"> portfolio</a> page. </p>
+                                    <a href="./#/portfolio/"> portfolio</a> page. </p>
 
                                     <p>
                                         As a linguist, I have worked for the last decade in professional interpretation
@@ -51,7 +51,7 @@ class Home extends Component {
                                     <p>
                                         That's some of my writing, and other projects are mostly forthcoming (having
                                         kids and Doing Life
-                                        sucks up a lot of time otherwise Spent Coding or Writing) -- check that out over on the <a href="./portfolio.html"> portfolio </a>
+                                        sucks up a lot of time otherwise Spent Coding or Writing) -- check that out over on the <a href="./#/portfolio"> portfolio </a>
                                         as well.
                                     </p>
                                 </div>
