@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './navbar';
 import Triple from './assets/triplethreat.jpg';
-import QPQ from './assets/qpqhomepage.jpg';
+//import QPQ from './assets/qpqhomepage.jpg';
 import Nodeserv from './assets/nodeserv.jpg';
 import KYR from './assets/knowyourrights.jpg';
 import Openlease from './assets/Openlease.jpg';
@@ -17,6 +17,7 @@ import Mistycity from './assets/mistycity.jpg';
 import Cloudytown from './assets/cloudytown.jpg';
 import Barcos from './assets/barcos.jpg';
 import Plazasoleada from './assets/plazasoleada.jpg';
+import Medium from './assets/medium.jpg'
 
 class Portfolio extends Component {
     render(){
@@ -51,8 +52,22 @@ class Portfolio extends Component {
                                         <p class="card-text"><small class="text-muted">2/2020</small></p>
                                     </div>
                                 </div>
-                                
+
+
                                 <div class="card">
+                                    <a href="https://medium.com/@oliver.renwick/how-to-build-a-personal-file-sharing-and-file-syncing-system-with-raspberry-pi-15f9ac71b17c">
+                                    <img class="card-img-top" id="medium" src={Medium}
+                                        alt="Medium article screenshot"></img></a>
+
+                                    <div class="card-block">
+                                        <h4 class="card-title">Building a fileshare - filesync with a Raspberry Pi</h4>
+                                        <p class="card-text">I've been working on an open-source, homemade file server and file backup syncing project for 
+                                        our home, and decided to write it up for the world.</p>
+                                        <p class="card-text"><small class="text-muted">6/2020</small></p>
+                                    </div>
+                                </div>
+
+                                {/* <div class="card">
                                     <a href="http://www.quidproquotranslations.com">
                                     <img class="card-img-top" id="qpq" src={QPQ}
                                         alt="QPQ screenshot"></img></a>
@@ -64,14 +79,14 @@ class Portfolio extends Component {
                                             business.</p>
                                         <p class="card-text"><small class="text-muted">1/2019</small></p>
                                     </div>
-                                </div> 
+                                </div>  */}
 
                                 <div class="card">
                                     <a href="https://github.com/mapachurro/OpenLease">
                                     <img class="card-img-top" id="Openlease" src={Openlease}
                                         alt="OpenLease screenshot"></img></a>
 
-                                    <div class="card-block">
+                                      <div class="card-block">
                                         <h4 class="card-title">The OpenLease Project</h4>
                                         <p class="card-text">The goal of the OpenLease Project is to offer tenants and landlords the opportunity to build custom leases based on editable templates and digitally sign and record them on the Ethereum blockchain--thus preserving for perpetuity the lease and any modifications thereof. I am currently rebuilding it in React, with plans to link it to a self-hosted instance of OpenLaw, the underlying technology, on Kaleido.</p>
                                         <p class="card-text"><small class="text-muted">1/2019</small></p>
