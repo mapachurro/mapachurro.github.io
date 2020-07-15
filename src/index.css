@@ -61,11 +61,6 @@ body, html {
 
 /* PORTFOLIO-SPECIFIC */
 
-#parallax-box{
-  display: flex;
-  flex-direction: column;
-}
-
 #portfoliobackground {
   background: #1B1E23;
   width:100vw;
@@ -73,12 +68,10 @@ body, html {
 
 .portfolio {
   margin-top: 80px;
-  margin-bottom: 80px;
   color: #F3603E;
 }
 
 .portfoliocards {
-  display: flex;
   background: #1B1E23;
   color: #F3603E;
 }

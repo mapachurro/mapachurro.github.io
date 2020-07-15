@@ -1,22 +1,39 @@
-import React,  {Component } from "react";
+import React from "react";
 import {
-  HashRouter, Route, Link
+  BrowserRouter as Router,
+  Switch,
+  Route,
 } from "react-router-dom";
 import Home from "./home";
-import Portfolio from "./portfolio";
 import Channels from "./channels";
+import Portfolio from "./portfolio";
 
-class App extends Component {
+export default function App() {
+  return (
+    <Router>
+        <Switch>
+          <Route path="/portfolio">
+            <Portfolio />
+          </Route>
+          <Route path="/channels">
+            <Channels />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+    </Router>
+  );
+}
 
-  render() {
-    return (
-     <HashRouter basename='/'>
-       <Route exact path="/" component={Home} />
-       <Route path="/portfolio" component={Portfolio} />
-       <Route path="/channels" component={Channels} />
-     </HashRouter>
-    );
-   }
-  }
+// function About() {
+//   return Home;
+// }
 
-export default App;
+// function Stuff() {
+//   return Portfolio;
+// }
+
+// function Contact() {
+//   return Channels;
+// }
