@@ -17,6 +17,7 @@ import Mistycity from './assets/mistycity.jpg';
 import Cloudytown from './assets/cloudytown.jpg';
 import Barcos from './assets/barcos.jpg';
 import Plazasoleada from './assets/plazasoleada.jpg';
+import Medium from './assets/medium.jpg'
 
 class Portfolio extends Component {
     render(){
@@ -53,6 +54,17 @@ class Portfolio extends Component {
                                 </div>
                                 
                                 <div class="card">
+                                    <a href="https://medium.com/@oliver.renwick/how-to-build-a-personal-file-sharing-and-file-syncing-system-with-raspberry-pi-15f9ac71b17c">
+                                    <img class="card-img-top" id="medium" src={Medium}
+                                        alt="Medium article screenshot"></img></a>
+
+                                    <div class="card-block">
+                                        <h4 class="card-title">Building your own personal cloud</h4>
+                                        <p class="card-text">This is a how-to article I wrote recently on Medium, which explains, step-by-step, how to set up a personal cloud and file sync on a Raspberry Pi.</p>
+                                        <p class="card-text"><small class="text-muted">6/2020</small></p>
+                                    </div>
+                                </div> 
+                                {/* <div class="card">
                                     <a href="http://www.quidproquotranslations.com">
                                     <img class="card-img-top" id="qpq" src={QPQ}
                                         alt="QPQ screenshot"></img></a>
@@ -64,7 +76,8 @@ class Portfolio extends Component {
                                             business.</p>
                                         <p class="card-text"><small class="text-muted">1/2019</small></p>
                                     </div>
-                                </div> 
+                                </div>  */}
+
 
                                 <div class="card">
                                     <a href="https://github.com/mapachurro/OpenLease">
