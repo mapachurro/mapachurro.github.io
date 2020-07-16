@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.9dd933e6.chunk.css",
-    "main.js": "/static/js/main.720899e8.chunk.js",
-    "main.js.map": "/static/js/main.720899e8.chunk.js.map",
+    "main.js": "/static/js/main.4a709008.chunk.js",
+    "main.js.map": "/static/js/main.4a709008.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0bc43039.js",
     "runtime-main.js.map": "/static/js/runtime-main.0bc43039.js.map",
     "static/css/2.de424728.chunk.css": "/static/css/2.de424728.chunk.css",
-    "static/js/2.8e0ab120.chunk.js": "/static/js/2.8e0ab120.chunk.js",
-    "static/js/2.8e0ab120.chunk.js.map": "/static/js/2.8e0ab120.chunk.js.map",
+    "static/js/2.688dd69e.chunk.js": "/static/js/2.688dd69e.chunk.js",
+    "static/js/2.688dd69e.chunk.js.map": "/static/js/2.688dd69e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bbcb8d1a01cd858af6d933c0888f123b.js": "/precache-manifest.bbcb8d1a01cd858af6d933c0888f123b.js",
+    "precache-manifest.c5ea0a5c282fd48b6682e618f467e4ff.js": "/precache-manifest.c5ea0a5c282fd48b6682e618f467e4ff.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/static/css/2.de424728.chunk.css.map",
     "static/css/main.9dd933e6.chunk.css.map": "/static/css/main.9dd933e6.chunk.css.map",
-    "static/js/2.8e0ab120.chunk.js.LICENSE.txt": "/static/js/2.8e0ab120.chunk.js.LICENSE.txt",
+    "static/js/2.688dd69e.chunk.js.LICENSE.txt": "/static/js/2.688dd69e.chunk.js.LICENSE.txt",
     "static/media/Openlease.jpg": "/static/media/Openlease.1afc3927.jpg",
     "static/media/barcos.jpg": "/static/media/barcos.ac8089ca.jpg",
     "static/media/biod.jpg": "/static/media/biod.d9bace7d.jpg",
@@ -24,6 +24,7 @@
     "static/media/knowyourrights.jpg": "/static/media/knowyourrights.97c45c7c.jpg",
     "static/media/legaltranslator.JPG": "/static/media/legaltranslator.56887a05.JPG",
     "static/media/linkedin.jpg": "/static/media/linkedin.5b4f168c.jpg",
+    "static/media/medium.jpg": "/static/media/medium.21e28288.jpg",
     "static/media/mistycity.jpg": "/static/media/mistycity.724f2ab3.jpg",
     "static/media/nodeserv.jpg": "/static/media/nodeserv.797edbb1.jpg",
     "static/media/plazasoleada.jpg": "/static/media/plazasoleada.2ce8f617.jpg",
@@ -40,8 +41,8 @@
   "entrypoints": [
     "static/js/runtime-main.0bc43039.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.8e0ab120.chunk.js",
+    "static/js/2.688dd69e.chunk.js",
     "static/css/main.9dd933e6.chunk.css",
-    "static/js/main.720899e8.chunk.js"
+    "static/js/main.4a709008.chunk.js"
   ]
 }
