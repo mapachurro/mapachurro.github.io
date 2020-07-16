@@ -10,7 +10,6 @@ class App extends Component {
     return(
       <HashRouter basename='/'>
         <div>
-          <hr />
         <Route exact path="/" component={Home} />
         <Route path="/portfolio" component={Portfolio}/>
         <Route path="/channels" component={Channels}/>
