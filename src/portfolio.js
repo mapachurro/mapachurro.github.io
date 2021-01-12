@@ -18,6 +18,9 @@ import Cloudytown from './assets/cloudytown.jpg';
 import Barcos from './assets/barcos.jpg';
 import Plazasoleada from './assets/plazasoleada.jpg';
 import Medium from './assets/medium.jpg'
+import Darkwall from './assets/darkwall.jpg'
+import Lotus from './assets/lotus.png'
+import Lexon from './assets/lexon.png'
 
 class Portfolio extends Component {
     render(){
@@ -64,19 +67,7 @@ class Portfolio extends Component {
                                         <p class="card-text"><small class="text-muted">6/2020</small></p>
                                     </div>
                                 </div> 
-                                {/* <div class="card">
-                                    <a href="http://www.quidproquotranslations.com">
-                                    <img class="card-img-top" id="qpq" src={QPQ}
-                                        alt="QPQ screenshot"></img></a>
 
-                                    <div class="card-block">
-                                        <h4 class="card-title">my translation business' website</h4>
-                                        <p class="card-text">I've worked in legal interpretation and translation since
-                                            2010; this is the new and improved small, static website I maintain for my
-                                            business.</p>
-                                        <p class="card-text"><small class="text-muted">1/2019</small></p>
-                                    </div>
-                                </div>  */}
 
 
                                 <div class="card">
@@ -90,6 +81,73 @@ class Portfolio extends Component {
                                         <p class="card-text"><small class="text-muted">1/2019</small></p>
                                     </div>
                             </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</Parallax>
+
+
+    <br></br>
+    <Parallax bgImage={Darkwall} strength={500}>
+    <div style={{ height: 800 }}>
+    <div class="container portfolio">
+        <div class="row">
+            <div class="card" id="portheader">
+            <div class="card-header bg-dark">
+                    
+                </div>
+                <div class="container-fluid portfoliocards">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="card-deck">
+
+                                <div class="card">
+                                    <a href="http://www.quidproquotranslations.com">
+                                    <img class="card-img-top" id="qpq" src={QPQ}
+                                        alt="QPQ screenshot"></img></a>
+
+                                    <div class="card-block">
+                                        <h4 class="card-title">my translation business' website</h4>
+                                        <p class="card-text">I've worked in legal interpretation and translation since
+                                            2010; this is the new and improved small, static website I maintain for my
+                                            business.</p>
+                                        <p class="card-text"><small class="text-muted">1/2019</small></p>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <a href="https://oliver-renwick.medium.com/running-a-filecoin-lotus-node-on-raspberry-pi-4-8014afacadbd">
+                                    <img class="card-img-top" id="lotusrpi" src={Lotus}
+                                        alt="Lotus Project screenshot"></img></a>
+
+                                    <div class="card-block">
+                                        <h4 class="card-title">Filecoin Lotus on ARM</h4>
+                                        <p class="card-text">I've been following the Filecoin project since early 2017, and 
+                                        have been doing my part to keep it running on as many platforms as possible--including the
+                                        ever-present Raspberry Pi, now that Version 4 has enough punch for it.
+                                        </p>
+                                        <p class="card-text"><small class="text-muted">11/2020</small></p>
+                                    </div>
+                                </div>
+
+                                    <div class="card">
+                                        <a href="https://medium.com/remix-ide/programming-your-first-binding-legal-agreement-with-lexon-remix-951c4bc4c42a">
+                                        <img class="card-img-top" id="lex" src={Lexon}
+                                            alt="The future of the legal system, thanks to Ethereum"></img></a>
+
+                                        <div class="card-block">
+                                            <h4 class="card-title">Lexon and Ethereum changing the field of law</h4>
+                                            <p class="card-text">The Lexon project is building a game-changing programming language and set of tools
+                                            to automate and enforce common legal needs through the Ethereum blockchain.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">3/2020</small></p>
+                                        </div>
+                                    </div>
 </div>
 </div>
 </div>
@@ -254,9 +312,9 @@ class Portfolio extends Component {
                     <div class="container-fluid">
                         <div class="row">
                             <div class="card-deck">
-                            <div class="card">
+                            {/* <div class="card">
                                         <img class="card-img-top" id="biod" src={Biod}
-                                            alt="Biodiesel processor image - old"></img>
+                                            alt="Biodiesel processor-old"></img>
                                         <div class="card-block">
                                             <h4 class="card-title">COMING SOON: BIODIESEL FOR LOLs AND PROFIT</h4>
                                             <p class="card-text">I've been making biodiesel in my garage for a year or
@@ -271,7 +329,7 @@ class Portfolio extends Component {
                                             </p>
                                             <p class="card-text"><small class="text-muted">1/2019</small></p>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div class="card">
                                         <img class="card-img-top" id="kham" src={Yasaqi}
                                             alt="khamriyyat"></img>
